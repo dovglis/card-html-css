@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0px 2px 23px #314a4147;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.mediaCard {
+  background: url("https://uploaddeimagens.com.br/images/003/988/711/original/89518919_2895492353807286_4181687443373686784_n.jpg")
+    center/cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.titulo {
+  color: #181931;
+}
+
+.texto {
+  color: #4f7777;
+}
+
+.bottomText {
+  color: #21403d;
+}
+
+.top-card {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.bottomCard {
+  padding: 20px;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: cadetblue;
+}
